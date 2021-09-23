@@ -1,0 +1,67 @@
+.carousel-item{
+    height: 480px;
+    width: 100%;
+}
+.carousel-caption{
+    color:#fff;  
+}
+
+
+
+.card-text{
+    color: rgb(138, 220, 245);
+    font-size: 1rem;
+    
+}
+.card-text:hover{
+    color: rgb(241, 244, 245);
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+.card{
+    margin-left:20px;
+}
+.nav-link{
+    color: grey;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.nav-link:hover{
+    background-color: rgb(118, 118, 201);
+    color: cornsilk;
+    cursor: pointer;
+}
+
+.card-body:hover{
+    transform: scale(1.05);
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+}
+.container-card
+{
+    background-image: url('//205913.jpg');
+}
+
+@media screen and (max-width:600px){
+    .carousel-item{
+        height: 250px;
+    }
+    .card-body{
+        width:12rem;
+        height:100;
+    }
+
+}
+.footer {
+    width: 100%;
+    display: flex;
+    background-color: rgb(35,35,35);
+    padding-bottom: 27px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 13px;
+    color: rgb(80,80,80);
+}
